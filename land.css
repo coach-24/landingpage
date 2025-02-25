@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e152f7, #cce64e, #5dd2f0);
+    color: white;
+    text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+/* Sections */
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#Home {
+    background: url('https://source.unsplash.com/1600x900/?technology,nature') center/cover no-repeat;
+}
+
+#Features {
+    background: rgba(255, 255, 255, 0.2);
+    color: #000;
+}
+
+#Pricing {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#About {
+    background: rgba(255, 255, 255, 0.3);
+    color: #000;
+}
+
+/* Buttons */
+.btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: #ffc107;
+    border: none;
+    color: black;
+}
+
+.btn-primary:hover {
+    background: #ff9800;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
